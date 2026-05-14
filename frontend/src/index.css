@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+  body {
+    @apply min-h-dvh bg-orange-50/60 text-stone-900;
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  }
+  .font-display {
+    font-family: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  }
+}
